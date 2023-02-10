@@ -4065,13 +4065,12 @@ const adjectives = ['aback',
 'zonked']
 
 
-testFirst = new firstSentence(verbs,names,objects);
+const testFirst = new firstSentence(verbs,names,objects);
 
-testSecond = new secondSentence(objects,advrebs,adjectives);
+const testSecond = new secondSentence(objects,advrebs,adjectives);
 
-testThrid = new thridSentence(objects,verbs,objects);
+const testThrid = new thridSentence(objects,verbs,objects);
 
-console.log(testFirst.sentence);
-console.log(testSecond.sentence);
-console.log(testThrid.sentence);
+const sentences = [testFirst,testSecond,testThrid];
 
+console.log(sentences[Math.floor(Math.random() * sentences.length)].sentence)

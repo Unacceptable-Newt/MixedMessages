@@ -32,8 +32,7 @@ class thridSentence extends sentence {
     }
 }
 
-const verbs = [
-    'abide',
+const verbs = ['abide',
 'accelerate',
 'accept',
 'accomplish',
@@ -1074,8 +1073,7 @@ const verbs = [
 'yawn',
 'yell',
 'zip',
-'zoom'
-];
+'zoom'];
 const names = ['Daniyal','Barnaby','Pablo','Sidney','Paul'];
 const objects = ['people',
     'history',
@@ -2602,8 +2600,7 @@ const objects = ['people',
     'wake',
     'wrap',
     'yesterday'];
-const advrebs = [
-    'abnormally',
+const advrebs = ['abnormally',
     'absentmindedly',
     'accidentally',
     'acidly',
@@ -2932,7 +2929,7 @@ const advrebs = [
     'youthfully',	
     'zealously',   
     'zestfully',
-    'zestily']
+    'zestily'];
 const adjectives = ['aback',
 'abaft ',
 'abandoned ',
@@ -4062,7 +4059,7 @@ const adjectives = ['aback',
 'zealous ',
 'zesty',
 'zippy ',
-'zonked']
+'zonked'];
 
 
 const testFirst = new firstSentence(verbs,names,objects);
@@ -4073,4 +4070,4 @@ const testThrid = new thridSentence(objects,verbs,objects);
 
 const sentences = [testFirst,testSecond,testThrid];
 
-console.log(sentences[Math.floor(Math.random() * sentences.length)].sentence)
+console.log(sentences[Math.floor(Math.random() * sentences.length)].sentence);
